@@ -78,7 +78,7 @@ The API methods are:
 #### Consume Model Endpoints<a name="consume"></a>
 Now that we have implemented and understood our endpoint, we may consume it. This is done by passing appropriate ingormation to the endpoint using the `endpoint.py` file. We entered Scoring URI and primary key in `endpoint.py` in order to run it. The output is as follows:
 <img src="screenshots for project/Screenshot (532).png"/>
-
+<img src="screenshots for project/Screenshot (533).png"/>
 I dont performd *benchmarking* as it is optional and i am running out of time.(Beachmarking will help us create a baseline or acceptable performance measure)
 #### Create, Publish and Consume a Pipeline<a name="pipeline"></a>
 With the help of the `aml-pipelines-with-automated-machine-learning-step.ipynb` file, we made the pipeline Run. The RunDetails widget in our Jupyter Notebook, displays the Run Output as follows:
@@ -87,9 +87,15 @@ With the help of the `aml-pipelines-with-automated-machine-learning-step.ipynb` 
 Following is how the Pipeline Run looks like in the sdk, with automl module and bank marketing dataset.
 <img src="screenshots for project/Screenshot (540).png"/>
 
+Active status of pipeline and endpoint of pipeline 
+<img src="screenshots for project/Screenshot (543).png"/>
+<img src="screenshots for project/Screenshot (551).png"/>
 It got completed successfuly, as follows.
 <img src="screenshots for project/Screenshot (544).png"/>
+<img src="screenshots for project/Screenshot (545).png"/>
 
+final submission of pipeline in sdk
+<img src="screenshots for project/Screenshot (552).png"/>
 ## Screen Recording<a name="sr"></a>
 <a href="https://youtu.be/otFyHKmV_To">YouTube Video Link</a> contains the Working deployed ML model endpoint, Deployed Pipeline, Available AutoML Model, 
 Successful API requests to the endpoint with a JSON payload et cetera in a screen recording.
