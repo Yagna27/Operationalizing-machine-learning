@@ -3,7 +3,7 @@
 ## Project Overview
 I was working with the Bank-Marketing dataset, that contains information about a previous bank marketing campaign from a Portuguese institution, i.e. attributed of the people the campaign dealt with and <ins>if a client will subscribe to a term deposit product (which is a binary outcome)</ins>.
 We seek to predict that outcome. This can be helpful in developing future marketing campaigns.
-The best model, was the **VotingEnsemble** that had an accuracy of **91.806%**. Furthermore, we deployed the model, and consumed it through a REST endpoint. Thereby, we published our pipeline of steps, automating the whole procedure.
+The best model, was the **VotingEnsemble** that had an accuracy of **91.654%**. Furthermore, we deployed the model, and consumed it through a REST endpoint. Thereby, we published our pipeline of steps, automating the whole procedure.
 
 Following flow diagram depicts the process.
 <img src="mlops-flow.png"/>
@@ -51,7 +51,7 @@ We have been provided with the *Bank-Marketing* dataset for the task, visible as
 We created the appropriate compute required for running an automl run on our dataset. Furthermore, we created an automl run for the same, which completed as follows.
 <img src="screenshots/Screen Shot 2021-01-07 at 4.20.28 PM.png"/>
 
-The best model was found out to be the Voting Ensemble with an accuracy of 91.806%
+The best model was found out to be the Voting Ensemble with an accuracy of 91.654%
 <img src="screenshots/Screen Shot 2021-01-07 at 4.20.40 PM.png"/>
 
 #### Deploy the Best Model<a name="deploy"></a>
