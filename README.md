@@ -47,7 +47,7 @@ Skipped this section, since I used the provided labs.
 #### Automated ML Experiment<a name="automl"></a>
 We have been provided with the *Bank-Marketing* dataset for the task, visible as follows.
 <img src="screenshots for project/Screenshot (521).png"/>
-
+<img src="screenshots for project/Screenshot (594).png"/>
 We created the appropriate compute required for running an automl run on our dataset. Furthermore, we created an automl run for the same, which completed as follows.
 <img src="screenshots for project/Screenshot (523).png"/>
 
@@ -60,7 +60,7 @@ We choose the best model for deployment and enable "Authentication" while deploy
 #### Enable Application Insights<a name="logging"></a>
 We performing loggin on our endpoint, by running `logs.py`.
 <img src="screenshots for project/Screenshot (527).png"/>
-
+<img src="screenshots for project/Screenshot (595).png"/>
 The executed code in logs.py enables Application Insights. "Application Insights enabled" is disabled before executing logs.py.
 <img src="screenshots for project/Screenshot (528).png"/>
 
@@ -93,9 +93,10 @@ Active status of pipeline and endpoint of pipeline
 It got completed successfuly, as follows.
 <img src="screenshots for project/Screenshot (544).png"/>
 <img src="screenshots for project/Screenshot (545).png"/>
-
+<img src="screenshots for project/Screen Shot .png"/>
 final submission of pipeline in sdk
 <img src="screenshots for project/Screenshot (552).png"/>
+
 ## Screen Recording<a name="sr"></a>
 <a href="https://youtu.be/otFyHKmV_To">YouTube Video Link</a> contains the Working deployed ML model endpoint, Deployed Pipeline, Available AutoML Model, 
 Successful API requests to the endpoint with a JSON payload et cetera in a screen recording.
