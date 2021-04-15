@@ -96,7 +96,9 @@ It got completed successfuly, as follows.
 <img src="screenshots for project/Screen Shot .png"/>
 final submission of pipeline in sdk
 <img src="screenshots for project/Screenshot (552).png"/>
-
+<img src="screenshots for project/Screenshot (599).png"/>
+<img src="screenshots for project/Screenshot (604).png"/>
+<img src="screenshots for project/Screenshot (605).png"/>
 ## Screen Recording<a name="sr"></a>
 <a href="https://youtu.be/otFyHKmV_To">YouTube Video Link</a> contains the Working deployed ML model endpoint, Deployed Pipeline, Available AutoML Model, 
 Successful API requests to the endpoint with a JSON payload et cetera in a screen recording.
